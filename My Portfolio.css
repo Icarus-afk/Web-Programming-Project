@@ -285,6 +285,59 @@ header .navbar ul li a:hover{
     background:var(--yellow);
 }
 
+
+.project .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding:1rem 0;
+    padding-left: 3rem;
+}
+
+.project .box-container .box{
+    width:27rem;
+    height: 18rem;
+    margin:4rem 1rem;
+    padding-left: 4rem;
+    border-left: .2rem solid #fff;
+    position: relative;
+}
+
+.project .box-container .box span{
+    font-size: 1.3rem;
+    background:#222;
+    color:#fff;
+    border-radius: 5rem;
+    padding:.5rem 2.5rem;
+}
+
+.project .box-container .box h3{
+    font-size: 2rem;
+    color:#fff;
+    padding-top: 1.5rem;
+}
+
+.project .box-container .box p{
+    font-size: 1.4rem;
+    color:#eee;
+    padding: 1rem 0;
+    object-fit: cover;
+}
+
+.project .box-container .box i{
+    position: absolute;
+    top:-1.5rem; left:-2.5rem;
+    height:5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    text-align: center;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--yellow);
+}
+
 .portfolio .box-container{
     display: flex;
     align-items: center;
@@ -486,6 +539,10 @@ header .navbar ul li a:hover{
     }
  
     .education .box-container .box{
+        width:100%;
+    }
+
+    .project .box-container .box{
         width:100%;
     }
 
