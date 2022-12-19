@@ -70,6 +70,7 @@ section{
 
 .btn:hover{
     background:var(--yellow);
+    color: #111;
 }
 
 .heading{
@@ -100,8 +101,8 @@ header{
 }
 
 header .user img{
-    height:17rem;
-    width:17rem;
+    height:15rem;
+    width:15rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
@@ -124,7 +125,7 @@ header .navbar{
 
 header .navbar ul{
     list-style: none;
-    padding:1rem 3rem;
+    padding:1rem 4rem;
 }
 
 
@@ -140,6 +141,7 @@ header .navbar ul li a{
 
 header .navbar ul li a:hover{
     background:var(--yellow);
+    color: black;
 }
 
 #menu{
@@ -317,7 +319,6 @@ header .navbar ul li a:hover{
     color:#fff;
     padding-top: 1.5rem;
 }
-
 .project .box-container .box p{
     font-size: 1.4rem;
     color:#eee;
